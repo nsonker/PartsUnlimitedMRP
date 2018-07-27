@@ -5,9 +5,9 @@ sudo mkdir -p /var/lib/partsunlimited
 sudo pkill -9 'java'
 
 # Remove old artifacts
-sudo rm -f /var/lib/partsunlimited/MongoRecords.js*
-sudo rm -f /var/lib/partsunlimited/mrp.war*
-sudo rm -f /var/lib/partsunlimited/ordering-service-0.1.0.jar*
+# sudo rm -f /var/lib/partsunlimited/MongoRecords.js*
+# sudo rm -f /var/lib/partsunlimited/mrp.war*
+# sudo rm -f /var/lib/partsunlimited/ordering-service-0.1.0.jar*
 
 # Copy files from deployment package
 sudo find ../ -iname '*.?ar' -exec cp -t /var/lib/partsunlimited {} +;
